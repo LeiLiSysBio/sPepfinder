@@ -1,1 +1,1 @@
-# sPepFinder
+# sPepfinder
