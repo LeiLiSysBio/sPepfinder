@@ -246,30 +246,6 @@ extract_neg_sORF_from_trRNA(){
 	done
 }
 
-build_phylogeny_tree_for_sORF(){
-	# build phylogeny tree for genes in a family
-	for tab in sORF_analysis/output/MFA/*.tab
-	do
-		tabname=$(basename "$tab")
-		mkdir -p sORF_analysis/output/muscle/"${tabname}"
-		for mfa in $tab/*.fasta
-		do
-		echo "$tabname"
-    if [[ -s $mfa ]]; then
-          perl bin/phylogeny_pipeline.pl --outdir sORF_analysis/output/muscle/"${tabname}" $mfa
-    fi
-		done
-	done
-}
-
-run_adaptive_selection_for_sORF(){
-	#run selection for sORF
-	for input in sORF_analysis/output/muscle/*.muscle
-	do
-	perl bin/asa_pipeline.pl "$input" "${input}.nj.nhx" --outdir sORF_analysis/output/selection --verbose
-	done
-}
-
 
 get_sORF_quanti_ecolification(){
 	#Escherichia coli
