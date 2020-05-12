@@ -1,6 +1,0 @@
-muscle = /kauai/lei/Project/2014-02-13-Lei_Li_sORF-Salmonella/results/2016-01-08-small-protein-pipeline/bin/muscle3.8.31_i86linux64
-treebest = /kauai/lei/Project/2014-02-13-Lei_Li_sORF-Salmonella/results/2016-01-08-small-protein-pipeline/selection/software/treebest-master/treebest
-kaks_caculator = /kauai/lei/Project/2014-02-13-Lei_Li_sORF-Salmonella/results/2016-01-08-small-protein-pipeline/selection/software/KaKs_Calculator1.2/src/KaKs_Calculator
-R = /usr/bin/R
-codeml = /kauai/lei/Project/2014-02-13-Lei_Li_sORF-Salmonella/results/2016-01-08-small-protein-pipeline/selection/software/paml4.8/bin/codeml
-pamp = /kauai/lei/Project/2014-02-13-Lei_Li_sORF-Salmonella/results/2016-01-08-small-protein-pipeline/selection/software/paml4.8/bin/pamp
